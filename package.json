@@ -1,0 +1,26 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Codecademy Minesweeper Project",
+  "main": "minesweeper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosherapp/minesweeper.git"
+  },
+  "author": "Moshe s Rapp",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mosherapp/minesweeper/issues"
+  },
+  "homepage": "https://github.com/mosherapp/minesweeper#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  }
+}
