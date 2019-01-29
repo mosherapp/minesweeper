@@ -1,14 +1,14 @@
 
 import Board from './board';
 
-export class Game {
+class Game {
     constructor(numberOfRows, numberOfColumns, numberOfBombs) {
       this._board = new Board(numberOfRows, numberOfColumns, numberOfBombs);
-      
+
     }
     playMove(rowIndex, columnIndex) {
       this._board.flipTile(rowIndex, columnIndex);
-  
+
       if(this._board.playerBoard[rowIndex][columnIndex] === 'B') {
         console.log('Game Over! You hit a bomb!');
         this._board.print();
